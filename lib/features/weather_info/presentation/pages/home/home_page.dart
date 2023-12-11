@@ -1,6 +1,4 @@
 import 'dart:ui';
-
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:weather_app/core/constants/constants.dart';
@@ -62,14 +60,14 @@ class HomePage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const Text(
-                      '📍 London',
+                      '📍 Kochi',
                       style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.w300,
                       ),
                     ),
                     const Text(
-                      'Good morning',
+                      'Good Afternoon',
                       style: TextStyle(
                         fontSize: 25,
                         color: Colors.white,
