@@ -1,3 +1,7 @@
 class ApiConstants {
-  static const apiKey = "1c9f790e8c73a322355d4ec577c09b02";
+  static const apiKey = "27eed7952e504180b01151056231112";
+  static const apiBaseUrl = "http://api.weatherapi.com/v1/current.json";
+  static String getBaseUrl({required String location}) {
+    return "$apiBaseUrl?key=$apiKey&q=$location&aqi=yes";
+  }
 }
